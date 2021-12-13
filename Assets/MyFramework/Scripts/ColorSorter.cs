@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Lucas
-{
+
+
     public class ColorSorter : MonoBehaviour
     {
         [Header("variable setup")] public ColorTile colorTilePrefab;
@@ -73,5 +73,5 @@ namespace Lucas
 
         // Update is called once per frame
         void Update() { }
-    }
+    
 }

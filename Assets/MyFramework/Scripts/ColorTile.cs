@@ -2,14 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.UI;
-
 using UnityEngine.UI;
 
 using Random = System.Random;
-
-namespace Lucas
-{
 
 
     public class ColorTile : MonoBehaviour, IComparable
@@ -66,5 +61,5 @@ namespace Lucas
             ColorTile tile = (ColorTile) obj;
             return Compare(this, tile);
         }
-    }
+    
 }
